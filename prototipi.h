@@ -1,15 +1,15 @@
 //
 //  prototipi.h
-//  Traccia 2
+//  Simulazione Dinamica Cellule
 //
 //  Santo Femiano
 //
 
 #ifndef prototipi_h
 #define prototipi_h
-void sceltauno(int,char [][30][24],int,int,int);
-void sceltadue(int,char [][30][24],int,int,int);
-void sceltatre(int,char [][30][24],int,int,int);
-void sceltaquattro(int,char [][30][24],int,int,int);
+
+void primacellulanera(char [][80]);
+void stampa (char [][80],int);
+
 
 #endif /* prototipi_h */
